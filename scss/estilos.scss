@@ -1,0 +1,47 @@
+/*----------------------------------
+		Paleta de colores
+------------------------------------*/
+$principal:#080F28;
+$secundario1:#FF6016;
+$secundario2:#141A32;
+$bordes:#ffff;
+html{
+	font-size: 13px;
+
+}
+body{
+	font-family: 'Secular One', sans-serif;
+	background: $principal; 
+
+}
+.bg-dark {
+    background-color: $secundario2 !important;
+}
+.text-primary {
+    color: $secundario1 !important;
+}
+.btn-outline-primary {
+    color: $secundario1;
+    border-color: $bordes;
+}
+.btn-outline-primary:hover{
+    background-color: $secundario1;
+    border-color: $bordes;
+}
+.btn-outline-primary:active{
+    background-color: $secundario1 !important;
+}
+.btn-outline-primary:focus{
+   	box-shadow: 0.0.0.2rem rgba($secundario1,.5) !important;
+}
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.card{
+  margin: 0.5rem;
+}

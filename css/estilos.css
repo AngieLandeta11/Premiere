@@ -1,0 +1,87 @@
+/*----------------------------------
+		Paleta de colores
+------------------------------------*/
+html {
+  font-size: 13px; }
+
+body {
+  font-family: 'Secular One', sans-serif;
+  background: #080F28; }
+
+.bg-dark {
+  background-color: #141A32 !important; }
+
+.text-primary {
+  color: #FF6016 !important; }
+
+.btn-outline-primary {
+  color: #FF6016;
+  border-color: #ffff; }
+
+.btn-outline-primary:hover {
+  background-color: #FF6016;
+  border-color: #ffff; }
+
+.btn-outline-primary:active {
+  background-color: #FF6016 !important; }
+
+.btn-outline-primary:focus {
+  -webkit-box-shadow: 0 0 0.2rem rgba(255, 96, 22, 0.5) !important;
+          box-shadow: 0 0 0.2rem rgba(255, 96, 22, 0.5) !important; }
+
+.cards-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.card img {
+  max-width: 100%;
+  max-height: 100%; }
+
+.card {
+  margin: 0.5rem; }
+
+.shadow {
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(255, 165, 0, 0.5) !important;
+          box-shadow: 0 0.5rem 1rem rgba(255, 165, 0, 0.5) !important; }
+
+.btn-primary {
+  color: #fff;
+  background-color: #FF6016;
+  border-color: #ffff; }
+
+div.carousel-inner div.carousel-item::before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #2121218c;
+  content: ""; }
+
+.dispositivos {
+  font-family: sans-serif; }
+
+#MiLink {
+  text-decoration: none;
+  color: white; }
+
+#MiLink:hover {
+  text-decoration: none;
+  color: white;
+  background-color: rgba(255, 165, 0, 0.5); }
+
+#MiLink:visited {
+  text-decoration: none;
+  color: white;
+  background-color: #FF6016; }
+
+#MiLink:active {
+  text-decoration: none;
+  color: white;
+  background-color: #FF6016; }
+
+/*# sourceMappingURL=estilos.css.map */
